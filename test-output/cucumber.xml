@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="84.452111">
-<testcase classname="Feature of Free CRM Login" name="login scenario" time="45.184803">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="99.863313">
+<testcase classname="Feature of Free CRM contact" name="contact scenario" time="50.830275">
 <system-out><![CDATA[Given user is already on login page.........................................passed
 When title of Free CRM logo.................................................passed
 Then enter "prasad1986" and "test@123" and click on login button............passed
 Then user is able to go home page...........................................passed
+Then user is move to contact page...........................................passed
+Then user enter "ameer" and "khan" and "Manager"............................passed
 Then close browser..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Feature of Free CRM Login" name="login scenario 2" time="39.267308">
-<failure message="junit.framework.ComparisonFailure: expected:&lt;[CRMPRO]&gt; but was:&lt;[#1 Free CRM software in the cloud for sales and service]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepDefinition.stepDefinition.user_is_able_to_go_home_page(stepDefinition.java:40)&#13;&#10;&#9;at ✽.Then user is able to go home page(login.feature:18)&#13;&#10;"><![CDATA[Given user is already on login page.........................................passed
+<testcase classname="Feature of Free CRM contact" name="contact scenario 2" time="49.033038">
+<system-out><![CDATA[Given user is already on login page.........................................passed
 When title of Free CRM logo.................................................passed
-Then enter "tom" and "peter" and click on login button......................passed
-Then user is able to go home page...........................................failed
-Then close browser..........................................................skipped
-
-StackTrace:
-junit.framework.ComparisonFailure: expected:<[CRMPRO]> but was:<[#1 Free CRM software in the cloud for sales and service]>
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at stepDefinition.stepDefinition.user_is_able_to_go_home_page(stepDefinition.java:40)
-	at ✽.Then user is able to go home page(login.feature:18)
-]]></failure>
+Then enter "prasad1986" and "test@123" and click on login button............passed
+Then user is able to go home page...........................................passed
+Then user is move to contact page...........................................passed
+Then user enter "padman" and "joe" and "VP".................................passed
+Then close browser..........................................................passed
+]]></system-out>
 </testcase>
 </testsuite>
