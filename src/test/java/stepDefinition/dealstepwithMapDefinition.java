@@ -13,7 +13,7 @@ import cucumber.api.DataTable;
 import cucumber.api.java.en.*;
 
 public class dealstepwithMapDefinition {
-
+	//maps with parametiraztion data driven testing
 	WebDriver driver;
 	@Given("^user is already on login page$")
 	public void user_is_already_on_login_page() {
