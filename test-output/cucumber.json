@@ -1,40 +1,216 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 40,
-        "name": "close browser",
+        "before": [
+          {
+            "result": {
+              "duration": 147342,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69405,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.beforeFirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "This is First scenario",
         "description": "",
-        "id": "free-crm-application-testing;close-browser",
+        "id": "free-crm;this-is-first-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 50631,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.afterFirst()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 94618765,
+              "duration": 83895206,
               "status": "passed"
             },
-            "line": 41,
-            "name": "verify application close",
+            "line": 5,
+            "name": "This is the first step",
             "match": {
-              "location": "TagStepdefinition.verify_application_close()"
+              "location": "HooksTagSepDefinition.this_is_the_first_step()"
             },
             "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 61440,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 73386,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.beforeSecond()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "This is the Second scenario",
+        "description": "",
+        "id": "free-crm;this-is-the-second-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 51200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42098,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.afterSecond()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55182,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "This is the Second step",
+            "match": {
+              "location": "HooksTagSepDefinition.this_is_the_Second_step()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 46080,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 59165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.beforeThird()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "This is the Third scenario",
+        "description": "",
+        "id": "free-crm;this-is-the-third-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 51769,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62578,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksTagSepDefinition.afterThird()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52338,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "This is the third step",
+            "match": {
+              "location": "HooksTagSepDefinition.this_is_the_third_step()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "Free CRM Application testing",
+    "name": "Free CRM",
     "description": "",
-    "id": "free-crm-application-testing",
+    "id": "free-crm",
     "keyword": "Feature",
-    "uri": "C:/Users/Prasad/eclipse-workspace/FreeCRMCucumberwithBDD/Features/Tagging.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@FuncionalTest"
-      }
-    ]
+    "uri": "C:/Users/Prasad/eclipse-workspace/FreeCRMCucumberwithBDD/Features/HookTags.feature"
   }
 ]
