@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\Prasad\\eclipse-workspace\\FreeCRMCucumberwithBDD\\Features\\deals.feature",//path of Feature file
+@CucumberOptions(features="C:\\Users\\Prasad\\eclipse-workspace\\FreeCRMCucumberwithBDD\\Features\\dealsmap.feature",//path of Feature file
 glue= {"stepDefinition"},//path of the StepDefinition file
 format= {"pretty","html:test-output","json:test-output/cucumber.json","junit:test-output/cucumber.xml"},//different type of reports
 dryRun=false,//to check mapping between feature file and step definition file
