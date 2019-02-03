@@ -5,7 +5,7 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 
 public class HooksTagSepDefinition {
-	//global hooks
+	//global hooks -- these are execute before and every scenario this is similir to @BeforeClass and @AfterClass in TestNG
 	@Before()
 	public void setup() {
 		System.out.println("launch browser");
@@ -15,7 +15,7 @@ public class HooksTagSepDefinition {
 	public void teardown() {
 		System.out.println("close browser");
 	}
-	//local hooks
+	//local hooks---these are execute for specific to scenario only these are similar to @BeforeMethod and @AfterMethod in TestNG
 	@Before("@First")
 	public void beforeFirst() {
 		System.out.println("this is before first only");
